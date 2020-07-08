@@ -97,7 +97,7 @@ const App = ({
   return (
     <Section>
       <Container>
-        <h1>Twilio Video chat with screen sharing</h1>
+        <h1>Video Calling Application using WebRTC . </h1>
         {errorMessage && (
           <Notification color="danger">
             Error: {errorMessage}

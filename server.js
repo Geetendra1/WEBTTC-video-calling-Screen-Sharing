@@ -14,9 +14,9 @@ app.listen(port);
 
 app.get("/token", (req, res) => {
   const token = new AccessToken(
-    process.env.TWILIO_ACCOUNT_SID,
-    process.env.TWILIO_API_KEY,
-    process.env.TWILIO_API_SECRET
+      TWILIO_ACCOUNT_SID="ACf34c01b47e554d5b9d1bb952b27a0e65",
+      TWILIO_API_KEY="SKbf6c17bd3705b3c904cce1ac555a99e8",
+      TWILIO_API_SECRET="MD7ZmMJH4pRwssvkEAIQqOzxuqornTWh"
   );
 
   token.addGrant(new VideoGrant());
